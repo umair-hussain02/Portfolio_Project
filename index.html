@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo" alt="Logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </nav>
+                <div class="container-text">
+                    <p>UX/UI Desginer</p>
+                    <h1>Hi, I'm <Span>Umair</Span><br>Hussain From Pakistan</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/bg16.png" alt="User Image">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolore rerum illum quisquam
+                            quasi, iusto ipsum unde maxime qui deleniti labore reiciendis laborum perferendis excepturi
+                            maiores dolorum veritatis repellendus incidunt, laudantium praesentium culpa? Quo magnam
+                            nesciunt quos debitis possimus suscipit sunt repellendus neque totam veniam accusantium
+                            asperiores saepe assumenda libero deserunt, placeat sequi dignissimos facilis!</p>
+                        <div class="tab-title">
+                            <h3 class="titles active-title" onclick="openTab('skills')">Skills</h3>
+                            <h3 class="titles" onclick="openTab('Experience')">Experience</h3>
+                            <h3 class="titles" onclick="openTab('Education')">Education</h3>
+                        </div>
+                        <div class="content-tab active-tab" id="skills">
+                            <ul>
+                                <li><span>UX/Ui</span><br>Designing Web & App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android & IOS App Development</li>
+                            </ul>
+                        </div>
+                        <div class="content-tab" id="Experience">
+                            <ul>
+                                <li><span>Amazon</span><br>Designing Web & App Interfaces</li>
+                                <li><span>Shopify</span><br>Web App Development</li>
+                                <li><span>Advertizing</span><br>Building Android & IOS App Development</li>
+                            </ul>
+                        </div>
+                        <div class="content-tab" id="Education">
+                            <ul>
+                                <li><span>Bachelor</span><br>Designing Web & App Interfaces</li>
+                                <li><span>F.Sc.</span><br>Web App Development</li>
+                                <li><span>Matric</span><br>Building Android & IOS App Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex velit vitae, quod veritatis eos
+                            illo.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h3>UX/UI Designing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex velit vitae, quod veritatis eos
+                            illo.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-app-store"></i>
+                        <h3>App Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex velit vitae, quod veritatis eos
+                            illo.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse accusamus
+                                tenetur
+                                recusandae laboriosam neque?</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse accusamus
+                                tenetur
+                                recusandae laboriosam neque?</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse accusamus
+                                tenetur
+                                recusandae laboriosam neque?</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+
+        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="sub-title">Contact Me</h2>
+                        <p> <i class="fas fa-paper-plane"></i> contact@sabrinemart.com</p>
+                        <p>  <i class="fas fa-phone-square-alt"></i> +1 (305)686-6459</p>
+                        <div class="social-icon">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" id="" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" id=""  rows="6" placeholder="Type your Message"></textarea>
+                            <button type="submit" class="btn btn3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copy-right">
+            <p>All Rights Reserved. Copyright by Umair</p>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
